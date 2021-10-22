@@ -6,7 +6,7 @@
 }:
 build-idris-package  {
   name = "yaml";
-  version = "2018-01-25";
+  version = "2020-10-22";
 
   # This is the .ipkg file that should be built, defaults to the package name
   # In this case it should build `Yaml.ipkg` instead of `yaml.ipkg`
