@@ -9,7 +9,7 @@ isSingleton False = List Nat
 
 -- Essa função calcula o tipo apropriado a partir de um Booleano
 -- Qual especificase o tipo deve ser um singleton ou não.
--- Podemos utar essa função para calcular um tipo em qualquer lugar que o tipo possa ser usado
+-- Podemos usar essa função para calcular um tipo em qualquer lugar que o tipo possa ser usado
 -- Por exemplo, podemos usar para calcular o tipo de um retorno de uma função:
 
 mkSingle : (x: Bool) -> isSingleton x
