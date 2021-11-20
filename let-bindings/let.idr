@@ -51,6 +51,6 @@ foldMap' : Monoid m => (a -> m) -> Vect n a -> m
 foldMap' f = let fo : m -> a -> m
                  fo ac el = ac <+> f el
                  initital := neutral
-                 --       ^ Isso indica que 'initial' é uma defnição separada
+                 --       ^ Isso indica que 'initial' é uma definição 
                  -- não relevante para a denifição de 'fo'
               in foldl fo initital
