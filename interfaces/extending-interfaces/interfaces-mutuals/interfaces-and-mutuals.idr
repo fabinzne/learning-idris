@@ -1,0 +1,7 @@
+-- Idris é extritamente "defina antes de usar", exceto em
+-- blocos mutual. Em um block mutual, idris é elaborado em
+-- dois passos: types em primeiro passo e definições em segundo
+-- Quando um bloco mutual contem a declaração de uma interface
+-- ele elambora o header da interface mas nada dos tipos
+-- dos méotodos em primeiro passo, e elabora o tipo dos métodos
+-- e qualquer definição padrão em segundo passo.
