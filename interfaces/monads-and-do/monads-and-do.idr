@@ -52,7 +52,7 @@ m_add x y = do x' <- x -- Extrai o valor de X
 -- deseja utilizando tipos, mas você pode explicitamente
 -- escoolher uma do notation qualificada, por exemplo:
 
-m_add1 : Maybe Int -> Maybe Int -> Maybe Int
+m_add1 : (Main.Monad m, Num a) => m a -> m a -> m a
 m_add1 x y = Predule.do
     x' <- x
     y' <- y
