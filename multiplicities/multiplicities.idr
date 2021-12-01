@@ -64,3 +64,7 @@ duplicate' : {0 a : _} -> (1 x : a) -> (a, a)
 
 -- Pattern Matching em Tupos - verdadeiros first class types.
 
+-- A coisa mais importante para a maioris dos programas e o que
+-- você precisa saber sobre como converser programar em idris 1
+-- para funcionar com idris2, é Erasure. A coisa mais interessante
+-- e que fornece para idris2 muito mais expressividade é lineatiry.
